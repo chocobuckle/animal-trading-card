@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #e3e4e4;
+}
+
+@font-face {
+  font-family: "Finding Nemo";
+  src: url("Finding Nemo.ttf");
+}
+
+img {
+  border: 2.0px inset #dfc826;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.animal {
+  font-family: "Finding Nemo";
+  font-size: 62px;
+  margin: -10px 0px 0px 1px;
+}
+
+.fact {
+  font-style: italic;
+  }
+
+.list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.info, .fact {
+  padding: 0px 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+#card {
+  background-color: #848ded;
+  border: 2.5px ridge #dfc826;
+  border-radius: 10px 10px 10px 10px; 
+  box-shadow: 4px 4px 16px 2px rgba(188,188,188,1);
+  padding: 10px;
+  width: 325px; 
+}
+
+.factlistinfo {
+  border: 2.0px inset #dfc826;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 12px; 
+  margin-top: 10px;
+  padding-left: .2em;
+  width: 300px;
+}
